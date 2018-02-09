@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
-void main()
+int main()
 {
    char str[100];
    int i = 0, l = 0, f = 1;
@@ -21,5 +21,6 @@ void main()
       }
    }
    printf("The number of words in the string are %d", f);
+   return 0;
    getch();
 }
