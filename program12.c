@@ -10,6 +10,7 @@ std::string x;
 }
 static const int num = 10000000;
 void main(){
+  clrscr();
 std::vector<std::string> strings;
 clock_t start = clock();
 std::sort(strings.begin(), strings.end());
